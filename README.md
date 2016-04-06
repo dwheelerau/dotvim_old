@@ -1,7 +1,9 @@
 # dotvim
-vundle probably needs to be installed?? (maybe not?)
-youcompleteme has a python installer:
-cd ~/.vim/bundle/YouCompleteMe
-./install.py --clang-completer #use python2
+vundle might need to be installed?? (maybe not?)
+if so just delete bundle folder and follow instructions.
 
-.vim files, .vimrc is located in the base directory, youcompleteme seperate python install, see doc
+youcompleteme has a python installer that is req after the vundle install:
+cd ~/.vim/bundle/YouCompleteMe
+./install.py --clang-completer ##use python2, see https://github.com/Valloric/YouCompleteMe
+
+the included .vimrc is contains the vundle install commands
